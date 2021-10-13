@@ -24,6 +24,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        // we need to declare provider if you want to save anything in your mobile storage
+        <provider
+            android:authorities="com.example.canvas.provider"
+            android:name="androidx.core.content.FileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+
+                <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/path">
+                </meta-data>
+
+        </provider>
+
     </application>
 
 </manifest>

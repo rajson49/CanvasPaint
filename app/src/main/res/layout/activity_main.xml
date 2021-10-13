@@ -8,6 +8,7 @@
 
 
     <FrameLayout
+        android:id="@+id/mainFramelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/ll_pain_colors"
@@ -36,7 +37,6 @@
             app:layout_constraintVertical_bias="0.555">
 
         </com.example.canvas.DrawingView>
-
 
 
     </FrameLayout>
@@ -129,6 +129,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/ic_brush"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
 
@@ -142,12 +143,41 @@
         android:contentDescription="brush Image"
         android:scaleType="fitXY"
         android:src="@android:drawable/ic_menu_camera"
-        app:layout_constraintBottom_toBottomOf="@+id/drawingView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/ib_brush"
         app:layout_constraintTop_toBottomOf="@+id/ll_pain_colors"
         app:layout_constraintVertical_bias="0.0">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/undo_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="undo"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="@+id/mainFramelayout"
+        app:layout_constraintEnd_toStartOf="@+id/ib_brush"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_pain_colors">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/ib_save"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="undo"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_save"
+        app:layout_constraintBottom_toBottomOf="@+id/camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/camera"
+        app:layout_constraintTop_toTopOf="@+id/camera">
 
     </ImageButton>
 

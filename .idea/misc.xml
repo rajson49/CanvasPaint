@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/background_dv_layout.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/dialog_custom_progress.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/large.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/medium.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/pallet_normal.xml" value="0.19583333333333333" />
@@ -11,6 +12,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/drawable/small.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/layout/dialog_brush_size.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/layout/dialog_custom_progress.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Canvas/app/src/main/res/xml/path.xml" value="0.1796875" />
       </map>
     </option>
   </component>
